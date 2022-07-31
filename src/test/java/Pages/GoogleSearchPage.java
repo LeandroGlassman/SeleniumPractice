@@ -16,4 +16,9 @@ public class GoogleSearchPage {
 		element = driver.findElement(By.xpath("//body/div[1]/div[3]/form[1]/div[1]/div[1]/div[3]/center[1]/input[1]"));
 		return element;	
 	}
+	
+	public static WebElement firstResult(WebDriver driver) {
+		element = driver.findElement(By.className("iUh30"));
+		return element;
+	}
 }
